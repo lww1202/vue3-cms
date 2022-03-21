@@ -6,14 +6,12 @@ module.exports = defineConfig({
   configureWebpack: {
     plugins: [
       AutoImport({
-        resolvers: [ElementPlusResolver()],
+        resolvers: [ElementPlusResolver()]
       }),
       Components({
-        resolvers: [ElementPlusResolver()],
-      }),
-    ],
+        resolvers: [ElementPlusResolver()]
+      })
+    ]
   },
   transpileDependencies: true
 })
-
-
