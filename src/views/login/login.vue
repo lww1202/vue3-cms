@@ -1,9 +1,12 @@
 <template>
-  <div>login</div>
+  <el-button>I am ElButton</el-button>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
+  components: {
+    
+  },
   setup() {
     return {}
   }
